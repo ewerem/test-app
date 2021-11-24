@@ -75,11 +75,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
+	'hostname' => 'israelcrud-server.mysql.database.azure.com',
+	'username' => 'puedbzghun@israelcrud-server.mysql.database.azure.com',
+	'password' => 'R8J7W5Z8C7EW0588$',
 	'database' => 'test',
-	'dbdriver' => 'mysqli',
+	'dbdriver' => 'mysql',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
