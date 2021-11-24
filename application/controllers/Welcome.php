@@ -26,7 +26,7 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		$data['users'] = $this->u->getUser();
-        $this->load->view('home_v', $data);
+        	$this->load->view('home_v', $data);
 	}
 	
 }
